@@ -417,3 +417,82 @@ body{
     letter-spacing: 0.06em;
     text-align: center;
 }
+
+.donation__wrapper{
+    width: 100%;
+    height: 462px;
+    background: #F6F6F6;
+}
+
+.donation{
+    width: 1280px;
+    height: 462px;
+}
+
+.donation__content{
+    width: 915px;
+    height: 282px;
+    margin: 80px 182px 100px 183px;
+    display: flex;
+}
+
+.donation__inside__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.donation__heading{
+    width: 300px;
+    height: 90px;
+}
+
+.donation__subheading{
+    width: 307px;
+    height: 17px;
+}
+.donation__subheading p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16.5px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #545454;
+}
+
+.donation__heading h3{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #545454;
+}
+
+.donation__credit__card{
+    width: 349px;
+    height: 43px;
+    border-radius: 9px;
+    background: #F1CDB3;
+}
+
+.credit__card__img{
+
+}
+
+.credit__card__heading{
+
+}
+
+.legal__information{
+
+}
+
+.legal__information p{
+    font-family: Arial;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #B2B2B2;
+}
