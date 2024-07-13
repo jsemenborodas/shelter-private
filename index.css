@@ -1,3 +1,8 @@
+/*RESET CSS*/
+
+
+
+
 /*MAIN SETTINGS*/
 
 @font-face {
@@ -15,7 +20,7 @@
 }
 
 body{
-    background: url(./images/background/noise_transparent.png), linear-gradient(0deg, #5B483A, #262425);
+    background: url(./images/background/noise_transparent.png), linear-gradient(to right, #5B483A, #262425);
     width: 100%;
 }
 
@@ -164,6 +169,8 @@ body{
 /*About*/
 .main{
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .about__wrapper{
     width: 100%;
@@ -218,4 +225,130 @@ body{
     line-height: 24px;
     text-align: left;
     color: #4C4C4C;
+}
+
+/*PETS*/
+
+.pets__wrapper{
+    width: 100%;
+    height: 877px;
+    background: #F6F6F6;
+}
+
+.pets{
+    margin: 0 auto;
+    width: 1200px;
+    height: 697px;
+    margin: 80px auto 0px auto;
+}
+
+.pets__heading{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.pets__heading h3{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.pets__slider{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 435px;
+    margin-top: 60px;
+}
+
+.card{
+    width: 270px;
+    height: 435px;
+    background: #FAFAFA;
+    border: 1px solid #FAFAFA;
+    border-radius: 9px;
+}
+
+.button__arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    margin-top: 192px;
+    border: 2px solid #F1CDB3;
+    background: #F6F6F6;
+}
+
+.card__heading{
+    margin-top: 25px;
+    margin-left: 0px;
+}
+
+.card__heading h3{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22.72px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.card__button{
+    width: 187px;
+    height: 52px;
+    margin: 30px auto 0 auto;
+}
+
+.card__button button{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    background: #FAFAFA;
+    color: #292929;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.1px;
+    letter-spacing: 0.06em;
+}
+
+.pets__button{
+    margin: 0 auto;
+    margin-top: 18px;
+    width: 261px;
+    height: 52px;
+}
+
+.pets__button .button_primary{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #F1CDB3;
+    background: #F1CDB3;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.pets__button .button_primary p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.1px;
+    letter-spacing: 0.06em;
+    color: #292929;
+}
+
+.left__arrow{
+    margin-right: 53px;
+}
+
+.right__arrow{
+    margin-left: 53px;
+}
+
+.card__center{
+    margin: 0 90px;
 }
