@@ -9,7 +9,7 @@
 
 .contaiter{
     width: 100%;
-    background: transparent;
+    background: blue;
 }
 
 .header{
@@ -18,17 +18,35 @@
     background: #FFFFFF;
 }
 
+.main{
+    width: 100%;
+    height: 1342px;
+    background: #F6F6F6;
+}
 
 
-[class*="content"]{
+.header__content{
     width: 1280px;
     height: 100%;
     background: transparent;
     display: flex;
     margin: 0 auto;
-}
-.header__content{
     justify-content: space-between;
+}
+
+.main__content{
+    width: 1280px;
+    height: 100%;
+    background: transparent;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.main__content__inside{
+    width: 1200px;
+    height: 930px;
+    margin: 80px 40px 0px 40px;
 }
 
 .logo{
@@ -69,4 +87,106 @@
 
 .nav__item__active{
     border-bottom: 3px solid #F1CDB3;
+}
+
+
+/*main*/
+
+.main__heading{
+    min-width: 400px;
+    min-height: 90px;
+    margin: 0 400px;
+}
+
+.main__heading h3{
+    color: #545454;
+    text-align: center;
+}
+
+.main__cards{
+    margin-top: 45px;
+    width: 1200px;
+    height: 930px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 13.5px;
+}
+
+.card{
+    width: 270px;
+    height: 435px;
+    border: 1px solid #FAFAFA;
+    border-radius: 9px;
+    background: #FAFAFA;
+    margin-bottom: 30px;
+}
+
+.card__img{
+
+}
+
+.card__heading{
+    width: 83px;
+    height: 23px;
+    margin: 28px 93px 0px 94px;
+}
+
+.card__heading__paragraph{
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22.72px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.card__button{
+    width: 187px;
+    height: 52px;
+    margin: 30px 41.5px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+}
+
+.card__button__paragraph{
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.1px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.main__pagination{
+    width: 340px;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    margin: 180px auto;
+}
+
+.paginator{
+    width: 52px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 50%;
+    display: flex;  
+}
+.paginator h4{
+    margin: 12px auto;
+    text-align: center;
+}
+
+.paginator__disabled{
+    border-color    : #CDCDCD;
+}
+.paginator__disabled h4{
+    color: #CDCDCD;
+}
+
+.paginator__current{
+    background: #F1CDB3;
 }
