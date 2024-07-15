@@ -190,3 +190,97 @@
 .paginator__current{
     background: #F1CDB3;
 }
+
+.footer{
+    width: 100%;
+    background: url(../images/background/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%);
+    height: 350px;
+} 
+
+.footer__wrapper{
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.footer__content{
+    display: flex;
+    width: 1200px;
+    height: 310px;
+    margin: 0 40px;
+}
+
+.footer__contacts{
+    width: 278px;
+    height: 90px;
+    margin-right: 160px;
+    margin-top: 16px;
+}
+
+.footer__title{
+    width: 300px;
+    height: 90px;
+    margin-bottom: 42px;
+}
+
+.footer__title__pin{
+    margin-bottom: 34px;
+}
+
+.footer__title h3{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer__mail{
+    display: flex;
+    margin-bottom: 44px;
+    align-items: center;
+}
+.footer__phone{
+    display: flex;
+    align-items: center;
+}
+
+.footer__phone img,
+.footer__mail img{
+    margin-right: 20px;
+}
+
+.footer__pin{
+    display: flex;
+    margin-bottom: 26px;
+}
+
+
+.footer__pin img{
+    height: 32px;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+
+.footer__pin__london p{
+    margin-top: 11px;
+}
+
+.footer__locations{
+    width: 302px;
+    height: 234px;
+    margin-right: 160px;
+    margin-top: 16px;
+}
+
+.footer p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #F1CDB3;
+    font-family: 'Georgia';
+}
