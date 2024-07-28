@@ -22,25 +22,24 @@ html{
 }
 
 body{
-    background: url(./images/background/noise_transparent.png), linear-gradient(to right, #5B483A, #262425);
     width: 100%;
 }
 
 
 /*HEADER AND STARTSCREEN*/
 .container{
-    max-width: 1280px;
+    background: url(../images/background/noise_transparent@2x.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
     text-align: center;
-    margin: 0 auto;
 }
 
 .start__screen{
+    margin: 0 auto;
     height: 100%;
+    max-width: 1280px;
     max-height: 908px;
     height: 908px;
     position: relative;
-    background-image: linear-gradient(to right, #5B483A, #262425);
-    background-image: url(../images/background/noise_transparent@2x.png);
+    background: url(../images/background/noise_transparent@2x.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #000000;
 }
 
 .header{
@@ -188,7 +187,7 @@ body{
     background: #F1CDB3;
 }
 
-.button_primary button{
+.button_primary button span{
     font-size: 17px;
     font-weight: 400;
     line-height: 22.1px;
@@ -202,12 +201,13 @@ body{
     border-color: #FDDCC4;
 }
 
-.button_primary a{
+.button_primary button p{
     font-size: 17px;
     font-weight: 400;
     line-height: 22.1px;
     letter-spacing: 0.06em;
     color: #292929;
+    margin-top: 2px;
 }
 
 
@@ -319,6 +319,7 @@ body{
     background: #FAFAFA;
     border: 1px solid #FAFAFA;
     border-radius: 9px;
+    transition: box-shadow 1s ease;
 }
 
 .card:hover{
@@ -382,26 +383,34 @@ body{
 }
 
 .pets__button{
-    margin: 0 auto;
-    margin-top: 18px;
     width: 261px;
     height: 52px;
+    margin: 0 auto;
+    margin-top: 19px;
 }
 
-.pets__button .button_primary{
+.form{
     width: 100%;
     height: 100%;
-    border: 2px solid #F1CDB3;
+}
+
+.form .button_primary{
+    width: 100%;
+    height: 100%;
     background: #F1CDB3;
+    border: 3px solid #F1CDB3;
     border-radius: 100px;
     text-align: center;
 }
 
-.pets__button .button_primary{
+.form .button_primary span{
+    text-align: center;
     font-size: 17px;
     font-weight: 400;
     line-height: 22.1px;
     letter-spacing: 0.06em;
+    margin-left: 2px;
+    margin-top: 1px;
     color: #292929;
 }
 
@@ -597,12 +606,13 @@ body{
 
 .footer{
     width: 100%;
-    background: url(./images/background/noise_transparent@2x.png), linear-gradient(0deg, #211F20, #211F20),radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%);
+    background: url(../images/background/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
     height: 350px;
     overflow: hidden;
 }
 
 .footer__wrapper{
+    background: url(../images/background/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
     width: 1280px;
     height: 100%;
     margin: 0 auto;
