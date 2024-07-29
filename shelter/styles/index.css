@@ -126,6 +126,10 @@ body{
     border-bottom: 3px #F1CDB3 solid;
 }
 
+.link__active a:hover{
+    cursor: default;
+}
+
 
 
 .link__active a h3{
@@ -380,6 +384,7 @@ body{
     font-weight: 400;
     line-height: 22.1px;
     letter-spacing: 0.06em;
+    text-align: center;
 }
 
 .pets__button{
@@ -579,7 +584,7 @@ body{
     margin: 10px 15px 10px 0px;
 }
 
-.credit__card__heading h4{
+.credit__card__heading h4 a{
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
