@@ -766,4 +766,150 @@ body{
         margin-top: 100px;
         margin-left: 169px;
     }
+
+    .about__wrapper{
+        height: 1048px;
+    }
+
+    .about{
+        width: 100%;
+    }
+
+    .about__content{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .about__heading{
+        margin: 0;
+        width: 23.125rem;
+    }
+    .about__subheading{
+        margin: 0;
+        margin-top: 1.563rem;
+    }
+
+    .about__info{
+        margin-left: 22.0052083333%;
+        margin-top: 5rem;
+    }
+
+    .about__pets{
+        margin: 0;
+        margin-top: 5rem;
+    }
+
+
+    .pets{
+        width: 100%;
+    }
+
+    .card__hidden{
+        display: none;
+    }
+
+    .pets__slider{
+        justify-content: normal;
+        width: 44.25rem;
+        margin: 0px 1.875rem;
+        margin-top: 3.6rem;
+    }
+    .button__arrow {
+        min-width: 52px;
+        margin: 0;
+        margin-top: 193px;
+    }
+
+    .card__center{
+        margin: 0;
+        margin-left: 38px;
+    }
+
+    .right__arrow{
+        margin-left: 12px;
+    }
+
+    .left__arrow{
+        margin-right: 12px;
+    }
+
+    .button_primary{
+        margin-top: 44px;
+    }
+
+    .help__wrapper{
+        height: 779px;
+    }
+    .help{
+        width: 100%;
+    }
+    
+    .help__content{
+        margin: 80px auto 0px auto;
+        width: 39.375rem;
+    }
+
+    .list__item{
+        width: 170px;
+        height: 113px;
+    }
+
+    .help__list {
+        gap: 55px 60px;
+    }
+
+    .donation__wrapper{
+        height: 783px;
+    }
+
+    .donation{
+        width: 100%;
+        height: 100%;
+    }
+
+    .donation__content{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .donation__dog{
+        order: 1;
+        margin: 0;
+        margin: 0px 132px 0px 131px;
+    }
+
+    .donation__dog img{
+        margin-right: 62px;
+    }
+    .donation__inside__content{
+        order: 0;
+        width: 380px;
+        margin: 80px 194px 60px 194px;
+    }
+
+    .footer{
+        height: 639px;
+    }
+
+    .footer__wrapper{
+        width: 100%;
+        padding-top:30px;
+    }
+
+    .footer__content{
+        width: 100%;
+        margin: 0;
+        gap: 60px 65px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__contacts,
+    .footer__locations,
+    .footer__puppy{
+        margin: 0;
+    }
+
+    .footer__pin{
+    }
 }
