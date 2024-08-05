@@ -213,7 +213,9 @@ body{
     color: #292929;
     margin-top: 2px;
 }
-
+.burger__menu{
+    display: none;
+}
 
 /*About*/
 .main{
@@ -717,6 +719,14 @@ body{
 
 
 @media (max-width: 1279px) {
+
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+        margin: 0 auto;
+    }
     .header{
         width: 92.1875%;
         height: 3.75rem;
@@ -727,7 +737,7 @@ body{
 
     .header__nav__menu{
         position: relative;
-        left: 11.4406779661%;
+        left: 10.3vw;
     }
 
     .start__screen_content{
@@ -746,6 +756,7 @@ body{
     .container{
         height: 1165px;
         background: url(../images/background/noise_transparent@2x.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #000000;
+        overflow: hidden;
     }
     .content{
         margin-top: 0;
@@ -833,10 +844,6 @@ body{
         margin-right: 12px;
     }
 
-    .button_primary{
-        margin-top: 44px;
-    }
-
     .help__wrapper{
         height: 779px;
     }
@@ -899,7 +906,8 @@ body{
     .footer__content{
         width: 100%;
         margin: 0;
-        gap: 60px 65px;
+        gap: 60px 62px;
+        padding-left: 2px;
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -910,6 +918,86 @@ body{
         margin: 0;
     }
 
-    .footer__pin{
+    .footer__puppy{
+        margin-top: 5px;
+    }
+
+    .footer__mail p{
+        margin-top: 2px;
+    }
+
+    .footer__locations{
+        padding-right: 5px;
+    }
+
+    .footer__title__pin{
+        margin-bottom: 33px;
+    }
+}
+
+@media (max-width:767.5px) {
+    .header{
+        justify-content: space-between;
+    }
+    .header__nav__menu{
+        display: none;
+    }
+
+    .header__logo{
+        margin-left: 8px;
+    }
+
+    .header__subtitle{
+        margin-left: 8px;
+    }
+
+    .burger__menu{
+        display: flex;
+        margin-right: 0.5em;
+        margin-top: 0.5em;
+    }
+
+    .content{
+        margin: 0;
+    }
+
+    .burger__line{
+        width: 30px;
+        height: 9px;
+        border-bottom: 3px solid #F1CDB3;
+        }
+
+    .content__heading{
+        width: 300px;
+        margin-left: 9.6vw;
+        height: 64px;
+        margin-bottom: 42px;
+    }
+
+    .content__heading h2{
+        font-family: Georgia;
+        width: 260px;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 32.5px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    .content__subheading{
+        margin: 0;
+        width: 300px;
+        height: 96px;
+        margin-left: 3vw;
+    }
+
+    .content__subheading p{
+        text-align: center; 
+    }
+
+    .content__button {
+        text-align: left;
+        margin-left: 17vw;
     }
 }
