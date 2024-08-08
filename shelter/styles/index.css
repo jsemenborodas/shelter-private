@@ -967,7 +967,9 @@ body{
         border-bottom: 3px solid #F1CDB3;
         }
 
+
     .content__heading{
+        margin-top: 7px;
         width: 300px;
         margin-left: 9.6vw;
         height: 64px;
@@ -1000,4 +1002,37 @@ body{
         text-align: left;
         margin-left: 17vw;
     }
+
+    .container{
+        height: 823px;
+        overflow: hidden;
+    }
+
+    .start__screen{
+        max-height: 823px;
+    }
+
+    .start__screen_content{
+        max-height: 680px;
+        display: block;
+    }
+
+    .content__image{
+        width: 260px;
+        height: 271.77px;
+        margin: 0 auto;
+    }
+    .puppy{
+        margin: 0;
+        width: 260px;
+        margin-top: 31%;
+        margin-left: 7.5%;
+    }
+
+    .button_primary button{
+        padding-top: 2px;
+        padding-left: 2px;
+    }
+
+    /*About*/
 }
