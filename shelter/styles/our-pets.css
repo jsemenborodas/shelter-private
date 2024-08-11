@@ -11,6 +11,10 @@ html{
     font-family: 'Georgia';
 }
 
+.burger__menu{
+    display: none;
+}
+
 .contaiter{
     width: 100%;
     background: blue;
@@ -316,4 +320,315 @@ html{
 .footer p:hover,
 .footer p a:hover{
     color: #fddcc497;
+}
+
+
+/*Media*/
+@media (max-width: 1279.5px) {
+    .contaiter{
+        width: 100%;
+        height: 2492px;
+        overflow: hidden;
+    }
+
+    .header{
+        width: 100%;
+        height: 120px;
+    }
+
+    .header__content{
+        width: 100%;
+    }
+
+    .logo{
+        margin-left: 30px;
+    }
+
+    .header__nav{
+        margin-right: 0;
+        margin-right: 30px;
+    }
+
+    /*main*/
+
+    .main{
+        width: 100%;
+        height: 1733px;
+    }
+    .main__content{
+        width: 100%;
+        height: 1733px;
+
+    }
+
+    .main__content__inside{
+        height: 1603px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .main__heading{
+        margin: 0;
+    }
+
+    .main__cards{
+        margin: 0;
+        width: 100%;
+    }
+
+    .main__content__inside{
+        height: 1603px;
+        width: 708px;
+        margin: 0 auto;
+    }
+
+    .main__heading{
+        width: 400px;
+        height: 90px;
+        text-align: center;
+        margin: 80px auto 13px auto
+    }
+
+    .main__heading h3{
+        font-family: Georgia;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 45.5px;
+        letter-spacing: 0.06em;
+    }
+
+    .main__cards{
+        width: 580px;
+        margin: 0 auto;
+        height: 1365px;
+        overflow: hidden;
+        margin-top: 3px;
+    }
+
+    .card__img img{
+        margin-top: 3px;
+    }
+
+    .main__pagination{
+        margin: 0 auto;
+    }
+
+    /*footer*/
+
+    .footer{
+        width: 100%;
+        height: 639px;
+    }
+
+    .footer__wrapper{
+        width: 100%;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .footer__content{
+        width: 100%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .footer__contacts{
+        margin: 30px 0 0 65px;
+    }
+
+    .footer__locations{
+        margin: 30px 0 0 7.9%;
+    }
+
+    .footer__puppy{
+        width: 300px;
+        height: 310px;
+        margin: 65px auto 0 auto;
+    }
+
+    .footer__puppy img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 767.5px){
+
+    .header__nav{
+        display: none;
+    }
+    
+    .burger__menu{
+        display: flex;
+        width: 30px;
+        height: 20px;
+    }
+
+    .burger__line{
+        width: 30px;
+        height: 9px;
+        border-bottom: 3px solid #F1CDB3;
+    }
+
+    .logo{
+        margin: 0;
+        margin-left: 20px;
+    }
+
+    .header__content{
+        padding-top: 30px;
+    }
+
+    .burger__menu{
+        margin-right: 20px;
+        margin-top: 14px;
+    }
+
+    /*main*/
+
+    .main{
+        height: 1649px;
+    }
+
+    .main__content{
+        height: 100%;
+        width: 100%;
+    }
+
+    .main__content__inside{
+        width: 100%;
+        height: 1555px;
+    }
+
+    .main__heading{
+        margin: 0;
+        min-width: 300px;
+        width: 300px;
+        height: 64px;
+        margin: 42px auto 0 auto;
+    }
+
+    .main__heading h3{
+        font-family: Georgia;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 32.5px;
+        letter-spacing: 0.06em;
+        text-align: center;
+    }
+
+    .main__cards{
+        margin: 11px auto 0 auto;
+        padding: 0;
+        width: 270px;
+        height: 1365px;
+    }
+
+    .main__pagination{
+        width: 300px;
+        height: 52px;
+    }
+
+    /*footer*/
+    
+    .footer{
+        width: 100%;
+        height: 809px;
+    }
+    .footer__wrapper{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer__content{
+        margin: 0 auto;
+    }
+
+    .footer__contacts{
+        margin: 0;
+        margin-top: 30px;
+        margin-left: 3%;
+    }
+
+    .footer__title{
+        margin: 0;
+    }
+    .footer__title h3{
+        font-family: Georgia;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 32.5px;
+        letter-spacing: 0.06em;
+        text-align: center;
+    }
+
+    .footer__mail{
+        margin-top: 17px;
+        margin-left: 8.5%;
+        margin-bottom: 0;
+    }
+
+    .footer__phone{
+        margin-top: 44px;
+        margin-left: 11%;
+    }
+}
+
+@media (max-width:650px) {
+
+    .footer__content{
+        align-items: baseline;
+    }
+
+    .footer__locations{
+        margin: 0;
+    }
+}
+
+@media (max-width:598px) {
+    .footer__locations{
+        width: 270px;
+        height: 64px;
+        margin-top: 159px;
+    }
+
+    .footer__locations h3{
+        font-family: Georgia;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 32.5px;
+        letter-spacing: 0.06em;
+        text-align: center;
+    }
+
+    .footer__title__pin{
+        width: 270px;
+        height: 64px;
+        margin-left: 9%;
+    }
+
+    .footer__pin{
+        width: 300px;
+        height: 46px;
+        margin: 0;
+        margin-top: 40px;
+        margin-left: 4%;
+    }
+
+    .footer__pin__london{
+        margin-top: 32px;
+    }
+
+    .footer__puppy,
+    .footer__puppy img{
+        width: 260px;
+        height: 269px;
+    }
+
+    .footer__puppy{
+        margin-top: 197px;
+    }
 }
